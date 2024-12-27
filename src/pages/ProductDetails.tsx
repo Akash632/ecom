@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { Product } from "../helpers/ts_helpers";
-import ApiRequest from "../utils/api_request";
+import ApiRequest from "../helpers/api_request";
 import { AppDispatch, RootType } from "../redux/store/store";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";

@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { AxiosRequestConfig } from "axios";
-import ApiRequest from "../../utils/api_request";
+import ApiRequest from "../../helpers/api_request";
 
 const initialState={
     user: [],
